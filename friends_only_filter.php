@@ -3,7 +3,7 @@
  * Plugin Name: Friends Only Filter
  * Plugin URI: https://github.com/PrysPlugins/friends-only-filter
  * Description: Filter the "Friends Only" plugin to allow more exceptions.
- * Version: 1.1
+ * Version: 1.2
  * Author: Jeremy Pry
  * Author URI: http://jeremypry.com/
  * License: GPL2
@@ -31,7 +31,7 @@ function jpry_fo_sentry_off( $sentry_off ) {
 	if ( ! $sentry_off ) {
 	
 		// Check for our custom Header
-		if ( 1 == getenv( 'X-WPE-FO-Cookie' ) ) {
+		if ( 1 == getenv( 'HTTP_X_WPE_FO_COOKIE' ) ) {
 			$sentry_off = true;
 		}
 	}
