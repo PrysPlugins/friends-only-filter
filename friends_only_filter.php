@@ -3,7 +3,7 @@
  * Plugin Name: Friends Only Filter
  * Plugin URI: https://github.com/PrysPlugins/friends-only-filter
  * Description: Filter the "Friends Only" plugin to allow more exceptions.
- * Version: 1.0
+ * Version: 1.1
  * Author: Jeremy Pry
  * Author URI: http://jeremypry.com/
  * License: GPL2
