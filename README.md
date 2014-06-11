@@ -31,4 +31,4 @@ Additional rules to bypass the "Friends Only" plugin
 		}
 ```
 
-Note that you **MUST** update the `$cookie_key` value with the correct value. This is the MD5 hash of the `siteurl` field found in the `wp_options` table in the database.
+Note that you **MUST** update the `HASH` value with the correct value. This is the MD5 hash of the `siteurl` field found in the `wp_options` table in the database.
